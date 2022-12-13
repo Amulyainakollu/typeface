@@ -1,0 +1,15 @@
+1.Ignore vowels and the letter h if not at the start of the word.
+
+2.Encode consonants based on how they sound, generate a code of just four characters length. Specifically in the given order.
+
+3.keep the first letter unencoded.
+
+4.Remove all occurrences of a, e, h, i, o, u, w, y, except when they appear as the first letter of the word.
+
+5.Replace consonants after the first letter.
+
+6.Remove adjacent duplicate digits.
+
+7.produce a code of the form Letter Digit Digit Digit by ignoring digits after the third one, or by appending zeros.
+
+For example,the name Murthy will be encoded  as the names Moorthy,Moorthi or Murthi.

@@ -1,0 +1,24 @@
+Here we have to design a datastore assuming the service had 100 API's and there are 1000 users roughly making 1 million requests per day.
+
+Average response time = Total time taken to respond during the selected time period/no.of responses in selected time period.
+
+Following are key Response time testing example values
+
+Response 
+Time	       Significance
+0.1 Second  If the response time is 0.1, users always feel that the application or system is responding instantly, and do not feel any interruption.
+1.0 Second	It is the defined as the maximum limit of acceptable response time. Users are unlikely to feel any interruption, though they may experience some delay. 
+10 Seconds	It is a maximum limit after which response time goes beyond the acceptable limit.
+
+Use the following formula to determine Tresponse, the response time (in seconds) at peak load:
+
+Tresponse = n/r - Tthink
+
+where
+
+n is the number of concurrent users
+
+r is the number requests per second the server receives
+
+Tthink is the average think time (in seconds)
+  
